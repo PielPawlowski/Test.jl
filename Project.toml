@@ -1,0 +1,13 @@
+name = "SeismoJulia"
+uuid = "c32d33a4-aa08-4ab7-ae22-9ebf88247046"
+authors = ["PielPawlowski <piel.pawlowski@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
